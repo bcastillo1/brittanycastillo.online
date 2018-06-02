@@ -5,6 +5,9 @@ collections:
   experiences:
     title: Experiences
     output: true
+  photography:
+    title: Photography
+    output: true
   posts:
     title: Posts
     output: true
