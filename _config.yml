@@ -2,6 +2,9 @@
 title: BrittanyCastillo.online
 timezone: UTC
 collections:
+  experiences:
+    title: Experiences
+    output: true
   posts:
     title: Posts
     output: true
