@@ -1,6 +1,7 @@
 ---
-title: Test Page 2
+title: Contact
 date: 2018-05-09 22:33:00 Z
 ---
 
-Test Page 2 :)
+email: brittanycastillo@fakemail.com
+phone: 123.456.7890
