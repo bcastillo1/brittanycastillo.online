@@ -8,7 +8,10 @@ tags:
 - parents
 - door
 - instagram
-image: "/uploads/Brett.jpg"
+images:
+- "/uploads/Brett.jpg"
+- "/uploads/Brett.jpg"
+- "/uploads/Brett.jpg"
 ---
 
 To view more photos visit my [Instagram](https://www.instagram.com/brittanycastillo.designs/) account
