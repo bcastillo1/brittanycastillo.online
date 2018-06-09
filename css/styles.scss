@@ -8,7 +8,7 @@
 
 // home page 
 
-.header-image {
+.aboutder-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.49),rgba(0, 0, 0, 0.89)),url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183172/Plant.jpg');
   background-size:cover;
   
@@ -16,4 +16,11 @@
 // Design
 // Photography
 // Typeography
-// 
+//about me
+.card{
+  width:340px;
+  // float: right;
+}
+.personalimg{
+  float: right;
+}
