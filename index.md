@@ -1,4 +1,4 @@
 ---
-layout: homepg
+layout: default
 ---
 
