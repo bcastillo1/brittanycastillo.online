@@ -1,13 +1,11 @@
 ---
-title: About
+title: Shutterbug
 date: 2018-05-09 22:35:00 Z
 ---
 
 # Hi! My name is Brittany Castillo, 
-I'm a VCD major and interested in learning anything and everything. I bounced around a lot prior to landing back in school, and have been excited to see where VCD will lead me! I dream of traveling and capturing the vast variety of cultures across the states and the world. 
-After graduating high school I have had several unique jobs that have helped me in my goal in becoming a jack-of-all-trades. My first job was at a daycare. I called myself "Cinderella" mostly because I did all the jobs that no one else wanted to do. 
-I loved it.
-Maybe I was just making the best of a crappy situation (literally sometimes) but I enjoyed the time I got to spend with the kids and enjoying the way they see the world. My next job was working as an International Peer Advisor with Asian University American Program. I was able to begin learning the Japanese language and culture, and later was given to opportunity to go to Japan.
-
-Upon my return to America I got another job working with Japanese students, but this time I was teaching on top of living with them and leading them through American Culture's idiosyncrasies.
-Currently I am working at a restaurant and using my time there to understand the intricate details of the company I work for. Who knows!? Maybe someday I'll get into business with someone and have my own little restaurant!
+Hi! I'm a VCD major and interested in learning anything and everything. I bounced around a lot prior to landing back in school, and have been excited to see where VCD will lead me! I dream of traveling and capturing the vast variety of cultures accross the states and the world.  
+I am senior at Eastern Washington University studying Visual Communication Design and User Experience. I've had the pleasure to run social media accounts for a national branch of a nonprofit, campus clubs, and a local Spokane business. I've designed an album cover for a local artist, and have been given multiple opportunities to photograph groups or individuals and do product photography.
+<strong>A bit more about me...</strong> After graduating high school I have had several unique jobs that have helped all helped shape me to the person I am today. My first job was at a daycare. I called myself "Cinderella" mostly because I did all the jobs that no one else wanted to do. I loved it.
+Maybe I was just making the best of a crappy situation (literally) but I enjoyed the time I got to spend with the kids and enjoying the way they see the world. They helped remind me that this world is magical. My next job was while I was in my second year at Central Washington Universtiy where I was studying psychology. It was here that I had the pleasure of working as an International Peer Advisor with Asian University American Program. I was able to begin learning the Japanese language and culture, and later was given to opportunity to go to Japan. After returning to Spokane, I got another job working with Japanese students, but this time I was teaching as well as living with them and leading them through American Culture's idiosyncrasies. 
+I then got a job working at a resturant and using my time there to understand the intricate details of the company I work for. Who knows!? Maybe someday I'll get into buisness with someone and have my own little resturant! That experience helped me while working for Norlift, a material handeling company. It was here that I learned how complex a warehouse could be, and I can hold my own in a conversation about different forklifts. I most certainly 
