@@ -1,0 +1,312 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title> {{site.title}} </title>
+  <style>
+    body { background: lightgreen;}
+  </style>
+</head>
+<body>
+  {{ content }}
+  
+</body>
+</html>
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- RWD -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- iOS MetaTags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SketchGo">
+
+    <!-- Web App Manfiest -->
+    <meta name="theme-color" content="red">
+    <meta name="theme-color" content="red">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    
+    <!--  Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
+    <!--  This Site/App -->
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="css/styles.processed.css">
+    <link rel="stylesheet" href="css/styles.scss">
+    
+  </head>
+  <body>
+  <!--     nav bar -->
+    <!-- do this seperately -->
+<html class="has-navbar-fixed-top">
+<nav class="navbar is-transparent is-fixed-top">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183172/logo-02.png" alt="Brittany Castillo Design" width="38" height="28">
+    </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="#shutterbug">
+        ShutterBug
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#photos">
+          Work
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="#photos">
+            Photography
+          </a>
+          <a class="navbar-item" href="#design">
+            Design
+          </a>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Hey @designnative10 I flipped through your portfolio, nice work!">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                Tweet
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-dark" href="https://www.instagram.com/brittanycastillo.designs/">
+              <span class="icon">
+                <i class="fab fa-instagram"></i>
+              </span>
+              <span>Contact</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--   end nav -->
+  
+  <!--  Your Progressive Web App   -->
+  <main class="container">
+    
+     
+    <section class="hero is-primary is-large header-image">
+    <div class="hero-head">
+      
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-2">
+          Brittany Castillo
+        </h1>
+        <center>
+          
+            <div class="pulse" style="width: 150px;">
+              <h1><span>Hello!</span></h1>
+</div>
+        </center>
+      </div>
+    </div>
+  </section>
+    
+  </main>    
+    
+ 
+<!--     about me stuff -->
+    <br>
+  <div id="shutterbug"> 
+<img class= "personalimg image is-3by5" src="img/me.jpg" alt="">
+<div class="aboutme">
+    {% include shutterbug.md%} <a href="#top"> Back to top</a>
+</div>
+
+    </div>
+
+
+
+  </body>
+</html>
+<!--    photos -->
+    <br>
+     <div id="photos"> 
+    <div class="tile is-ancestor ">
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      
+      <figure class="image is-4by3">
+            <img src="img/DSC_0019.jpg">
+          </figure>
+      
+    </article>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <figure class="image is-4by3">
+            <img src="img/dof.jpg">
+          </figure>
+    </article>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <figure class="image is-4by3">
+            <img src="img/DSC_1081.jpg">
+          </figure>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile ">
+      <div class="tile is-parent is-vertical ">
+        <article class="tile is-child box ">
+          
+          <p class="subtitle ">“Photography is the story I fail to put into words.”
+— Destin Sparks</p>
+        </article>
+        <article class="tile is-child box">
+          <p class="subtitle">“There is one thing the photograph must contain, the humanity of the moment.” <br>
+— Robert Frank</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          
+          <figure class="image is-4by3">
+            <img src="img/portraitruthCanLid.jpg">
+          </figure>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <div class="content">
+          <img src="img/Brett.jpg">
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <div class="content">
+        <p class="title">Photography</p>
+        <p class="subtitle">Mirror into time</p>
+        <div class="content">
+          <p>Photography, for me, is a mirror into a past time or moment. It accepts the reality of then to showcase to the now. I have been honored to take pictures for family, friends, and strangers. I love taking portraits and trying to capture the unique personality of the individual. The way their eyes squish a little bit when they laugh, or how they express their love to their spouse. </p> <p>I also had the opportunity to do some product photography for the EWU tech department. It was a first and unique experience for me. I learned how to capture the essence of an object. There were a variety of objects ranging from bottles to records, barbwire to arrow heads. Through my weeks of work, I discovered I actually really enjoyed the still life photos I was taking. That I wasn’t just photographing a bunch of random items to display digitally, I was photographing history. As I said, it was a unique experience. One I would love to repeat again. </p><p> If you find yourself in need for a photographer, feel free to give me a shout! Contact me on Instagram or Twitter, or you could email me at design.brittany@outlook.com </p>
+
+          <p><a href="#top"> Back to top</a></p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      
+      <img src="img/portraitruthcrawling.jpg" alt="">
+    </article>
+  </div>
+  <div class="tile is-parent">
+      <article class="tile is-child box">
+        
+       <img src="img/bree.jpg" alt="">
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="design"> 
+<!--     layout design stuff -->
+    <br>
+    <div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">SPACED</p>
+      <p class="subtitle"> an app for space travel</p>
+      <div class="content">
+      <a href="https://invis.io/7DL34ZD4ZKV"><img src="img/SPACED.png" alt="" style="height:350px";></a>
+      </div>
+    </article>
+  </div>
+  <div class="tile is-parent is-8">
+    <article class="tile is-child box">
+      <p class="title">Main Street Library</p>
+      <p class="subtitle">Banner to explain construction purposes</p>
+      <div class="content">
+        <img src="img/MainStreet.jpg" alt="">
+      </div>
+    </article>
+  </div>
+      <--- footer--->
+<br>
+</div>
+  <div class="card">
+  <div class="card-content">
+    <p class="title">
+      Contact me for your design needs!
+    </p>
+    <p class="subtitle">
+    </p>
+  </div>
+  <footer class="card-footer">
+    <p class="card-footer-item">
+      <span>
+        Contact on <a href="https://twitter.com/DigitalNative10">Twitter</a>
+      </span>
+    </p>
+    <p class="card-footer-item">
+      <span>
+        Contact on <a href="https://www.instagram.com/brittanycastillo.designs/">Instagram</a>
+      </span>
+    </p>
+  </footer>
+</div>
+  
+  <!-- Scripts -->
+<script src="js/scripts.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/webanimations.min.js"></script>

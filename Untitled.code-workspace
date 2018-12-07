@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "js"
+		},
+		{
+			"path": "css"
+		},
+		{
+			"path": "_uploads"
+		},
+		{
+			"path": "_posts"
+		},
+		{
+			"path": "_photography"
+		},
+		{
+			"path": "_layouts"
+		},
+		{
+			"path": "_experiences"
+		},
+		{
+			"path": "_data"
+		},
+		{
+			"path": "img"
+		}
+	]
+}
