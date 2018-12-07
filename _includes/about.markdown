@@ -1,8 +1,8 @@
 ---
-title: Shutterbug
-date: 2018-05-09 22:35:00 Z
+title: About
+date: 2018-04-25 23:38:00 Z
 ---
 
-# Hi!  
+# Hello 
 Hello! My name in Brittany Castillo and I am a graduate of Eastern Washington University with a degree in Visual Communication Design and a Certificate in User Experience Design (UX). UX to me means that there is accessibility and ease of use for anyone using the website or product. I am experienced in qualitative and quantitative testing, as well as utilizing development and prototyping tools. I have participated in the SPACED competition that YouTuber and Designer Dan Petty initiated and was sponsored by Epicurrence, Future Ada’s Django Girls Code Weekend which is a local nonprofit hoping to help bring more female and nonbinary individuals into the coding world, and am currently developing a new website for a community church. 
 When not working on projects or attending local events, I like to travel and visit friends. I have been to 19 states, to the boarder of both Canada and Mexico, and was in Japan for a month. My favorite part about traveling is comparing the culture and lifestyle of the people in the new location to the people in my hometown. Finding the idiosyncrasies of a culture or town gives me a better understanding of individuals’ backgrounds and thus makes me a better designer. I document my travels and life by taking photos, I enjoy trying to capture the mood and tell a story is a challenge I enjoy bringing to every photo I take, whether that be that of a town or a person. I believe that taking a moment to be still and notice what is around one’s self is important not only for noticing the small things around, but also to further understand the self. All these experiences and hobbies help make me a great designer because I understand multiple disciplines within design.
