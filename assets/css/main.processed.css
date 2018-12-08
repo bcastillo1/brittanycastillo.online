@@ -112,7 +112,7 @@ body.overflow {
 ========================================== */
 nav {
   background-color: #595959;
-  position: fixed;
+  /* position: fixed; */
   z-index: 9;
   top: 0;
   right: 0;
@@ -412,7 +412,7 @@ aside {
     height: 160vh;
     width: 60vw;
     max-width: 1025px;
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     bottom: 0;
   }
