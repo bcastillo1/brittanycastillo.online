@@ -9,16 +9,14 @@
 ========================================== */
 /*  BRACKETS
 ========================================== */
-#background{
-  background-color: #93BECB;
-}
 #contactme svg{ 
   width: 30px;
   margin: 1px;
 }
 .index{
-  margin-top: 50%;
+  margin-top: 6%;
   margin-left: 25px;
+  font-size: 3em;
 }
 a {
   text-decoration: none;
