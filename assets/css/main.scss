@@ -1,6 +1,7 @@
 /* // references: // creotip // tyreil // */
 /*  STYLE SHEETS*/
-@import '/css/burger.css';
+@import '/css/burger.scss';
+@import '/css/photo.css'
 /*  COLORS
 ========================================== */
 $black: #000000;
@@ -14,7 +15,7 @@ $lightblue: #93BECB;
 $amatic: 'Amatic SC', cursive;
 $opensans: 'Open Sans', sans-serif;
 p{
-  font-family:$opensans;
+  font-family: $opensans;
   color:$gray;
 }
 h1{
