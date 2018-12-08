@@ -10,7 +10,7 @@
 /*  BRACKETS
 ========================================== */
 #frontimg{
-  height: 100%;
+  width: 68%;
 }
 #contactme svg{ 
   width: 30px;
@@ -436,6 +436,9 @@ aside {
 }
 
 .AboutMe {
-  margin: 40px;
-  max-width: 450px;
-}
+  margin: 48px;
+  max-width: 483px;
+  line-height: 25px;}
+.AboutMe h1{
+    margin: 10px 0px 10px 0px;
+  }
