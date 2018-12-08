@@ -9,8 +9,8 @@
 ========================================== */
 /*  BRACKETS
 ========================================== */
-#index{
-  background-image: url(assets/img/lifestyle6.jpg) ;
+.index{
+  margin-top: 50%;
 }
 a {
   text-decoration: none;
