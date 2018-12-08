@@ -33,6 +33,7 @@ h2{
   position: relative;
   overflow: hidden;
   transition: .3s;
+  background: #ffffff;
 }
 .button:hover {
   cursor: pointer;
@@ -118,4 +119,101 @@ h2{
 ::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+/* 
+nav */
+
+*{
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+a{
+  font-size:12px;
+  line-height:;
+}
+section{
+  height: 5vh;
+  background-color: #008080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-btn{
+  display: block;
+  background-color: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; 
+  position: relative;
+}
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after{
+  position: absolute;
+  display: block;
+  height: 4px; margin-top:-2px;
+  width: 30px; margin-left:-15px;
+  top:50%;
+  left: 50%;
+  background-color: #222;
+}
+.menu-btn span::before,
+.menu-btn span::after{
+  content:'';
+  display: block;
+  transition: .3s;
+}
+.menu-btn span::before{
+  transform: translateY(-10px);
+}
+.menu-btn span::after{
+  transform: translateY(10px);
+}
+.menu-btn_active span::before{
+  transform: rotate(45deg);
+}
+.menu-btn_active span::after{
+  transform: rotate(-45deg);
+}
+.menu-btn_active span{
+  height: 0;
+}
+.menu-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 100;
+  display: inline-block;
+  margin-right: 20px;
+  transition: 1s;
+}
+.menu-nav {
+  transition: 0.2s;
+  transform: scaleX(0) translateX(0%);
+  transform-origin: right center;
+  opacity: 0;
+  visibility: hidden;
+  height: 100px;
+  line-height: 10px;
+  background-color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: -45px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.menu-nav_active {
+  transform: scaleX(1) translateX(0%);
+  opacity: 1;
+  visibility: visible;
 }
