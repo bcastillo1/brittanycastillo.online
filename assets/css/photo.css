@@ -1,8 +1,18 @@
-/* body {
-  background: #ffffff;
-  font-weight: 300;
+html{
+  font-family: url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans');
+  background: #ffffff;}
+ p {
+    font-family: 'Open Sans', sans-serif;
+   }
+h1{
   font-family: "Amatic SC", cursive;
-} */
+  font-size: 3em;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 2em;
+  font-family:'Open Sans', sans-serif;
+}
 
 .container {
   display: flex;

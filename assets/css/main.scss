@@ -14,15 +14,23 @@ $lightblue: #93BECB;
 ========================================== */
 $amatic: 'Amatic SC', cursive;
 $opensans: 'Open Sans', sans-serif;
+html{
+  background: #ffffff;
+}
 p{
   font-family: $opensans;
   color:$gray;
-}
+  }
 h1{
   font-family:$amatic;
   color:$lightblue;
   font-size:3em;
+  text-transform: uppercase;
 }
+h2{
+  font-size: 2em;
+  font-family:'Open Sans', sans-serif;}
+
 
 /*  BRACKETS
 ========================================== */
