@@ -1,7 +1,7 @@
 /* // references: // creotip // tyreil // */
 /*  STYLE SHEETS
 ========================================== */
-@import url(burger.scss);
+@import url(burger.processed.css);
 @import url(photo.css);
 /*  COLORS
 ========================================== */
@@ -11,6 +11,7 @@
 ========================================== */
 .index{
   margin-top: 50%;
+  margin-left: 25px;
 }
 a {
   text-decoration: none;
@@ -461,7 +462,7 @@ aside {
   margin-left: 10px;
   height: 100vh;
   width: 40vw;
-  max-width: 600px;
+  max-width: 1025px;
   position: fixed;
   right: 0;
   bottom: 0;
