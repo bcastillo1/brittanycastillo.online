@@ -110,27 +110,7 @@ body.overflow {
 
 /*  NAV
 ========================================== */
-nav {
-  background-color: #595959;
-  /* position: fixed; */
-  z-index: 9;
-  top: 0;
-  right: 0;
-  height: 100%;
-  max-width: 515px;
-  width: 100%;
-  padding: 100px 40px 60px 40px;
-  overflow-y: auto;
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -moz-transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -o-transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-}
+
 
 nav.show {
   -webkit-transform: translateX(0px);
@@ -404,7 +384,7 @@ aside {
 
 @media (max-width: 748px) {
   .left {
-    margin: 172px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     width: 90vw;
   }
   aside {
@@ -427,13 +407,16 @@ aside {
   .asidesquare {
     background-color: transparent;
   }
+  .index{
+    font-size: 1em;
+  }
 }
 
 /*  About me
 ========================================== */
-.left {
+/* .left {
   margin-right: 40vw;
-}
+} */
 
 .AboutMe {
   margin: 48px;
@@ -445,3 +428,34 @@ aside {
   #photogal {
     margin-left: 10px;
   }
+
+  /*  new nav
+========================================== */
+nav{
+  background-color: #375764;
+  height: 80px;
+}
+.newnav{
+  width: 100%;
+  margin: 0 auto;
+  /* background-color:#375764; */
+}
+.nav-list-left{
+  float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.nav-list-left li{
+  float: left;
+  margin-right: 10px;
+}
+.nav-list-left li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-list-left li a:hover{
+  text-decoration: none;
+  color: #e46965;
+}
