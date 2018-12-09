@@ -112,14 +112,14 @@ body.overflow {
 ========================================== */
 
 
-nav.show {
+/* nav.show {
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -o-transform: translateX(0px);
   transform: translateX(0px);
-}
-
+} */
+/* 
 nav.show ul.main li {
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
@@ -127,9 +127,9 @@ nav.show ul.main li {
   -o-transform: translateX(0px);
   transform: translateX(0px);
   opacity: 1;
-}
+} */
 
-nav.show ul.main li:nth-child(1) {
+/* nav.show ul.main li:nth-child(1) {
   transition-delay: 0.15s;
 }
 
@@ -335,7 +335,7 @@ nav ul.sub li a {
 
 nav ul.sub li a:hover {
   color: #ECFF04;
-}
+} */
 
 /*  OVERLAY
 ========================================== */
@@ -450,12 +450,14 @@ nav{
 .nav-list-left li{
   float: left;
   margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav-list-left li a{
   text-decoration: none;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav-list-left li a:hover{
   text-decoration: none;
-  color: #e46965;
+  color:  #ECFF04;;
 }

@@ -23,8 +23,8 @@ h2{
 
 .button {
   flex: 1 1 auto;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 10px;
   border: 2px solid #595959;
   background-color: #ffffff;
   text-align: center;
@@ -46,9 +46,9 @@ h2{
   transition: all 350ms ease;
 }
 
-#display {
+/* #display {
   min-width: 380px;
-}
+} */
 
 .mobiletop {
   display: flex;
