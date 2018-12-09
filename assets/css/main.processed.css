@@ -19,7 +19,7 @@
 .index{
   margin-top: 6%;
   margin-left: 25px;
-  font-size: 3em;
+  /* font-size: 3em; */
 }
 a {
   text-decoration: none;
@@ -374,6 +374,9 @@ aside {
   #bracket{
     margin-left: 10vw;
   }
+  #wel{
+  float:left;
+   max-width:30vw;
 }
 
 @media (min-width: 848px) {
@@ -420,7 +423,7 @@ aside {
 
 .AboutMe {
   margin: 48px;
-  max-width: 483px;
+  max-width: 783px;
   line-height: 25px;}
 .AboutMe h1{
     margin: 10px 0px 10px 0px;
@@ -460,4 +463,15 @@ nav{
 .nav-list-left li a:hover{
   text-decoration: none;
   color:  #ECFF04;;
+}
+
+#wel{
+  float:left;
+   max-width:30vw;
+  /* height:100vh; */
+  /* background-color:blue; */
+  /* background-image:url('assets/img/product1.jpg') */
+}
+#welcome{
+  height: 100vh;
 }
